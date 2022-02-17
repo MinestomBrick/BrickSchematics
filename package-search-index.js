@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.minestombrick.schematics.api"},{"l":"org.minestombrick.schematics.api.versions"}];updateSearchResults();
