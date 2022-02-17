@@ -26,6 +26,6 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           LANGUAGE: "java"
           MAKE_COMMAND: "gradlew javadoc"
-          PAGES_BRANCH: "gh-pages"
+          PAGES_BRANCH: "javadocs"
           BUILD_FROM: "main"
           DOCS_FOLDER: "api/build/docs/javadoc"
