@@ -19,13 +19,4 @@ jobs:
 
   javadoc:
     needs: test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: avinal/github-pages-deploy-action@main
-        with:
-          GITHUB_TOKEN: ${{ github.token }}
-          LANGUAGE: "java"
-          MAKE_COMMAND: "gradlew javadoc"
-          PAGES_BRANCH: "javadocs"
-          BUILD_FROM: "main"
-          DOCS_FOLDER: "api/build/docs/javadoc"
+    uses: MinestomBrick/.github/.github/workflows/java-gradle-javadoc.yml@main
